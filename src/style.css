@@ -13,6 +13,7 @@
   border-top: none;
   display:flex;
   flex-direction: row;
+  user-select: none;
 }
 
 #todo-list li:first-child {
@@ -21,4 +22,6 @@
 
 #todo-list li input[type="checkbox"] {
   margin-right: 0.5rem;
+  cursor: pointer;
 }
+
