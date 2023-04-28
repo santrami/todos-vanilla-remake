@@ -1,3 +1,24 @@
 :root{
   font-family: sans-serif;
 }
+
+#todo-list {
+  list-style-type: none;
+  padding:0;
+}
+
+#todo-list li {
+  border: 1px solid lightgrey;
+  padding: .5rem .8rem;
+  border-top: none;
+  display:flex;
+  flex-direction: row;
+}
+
+#todo-list li:first-child {
+  border-top: 1px solid lightgrey;
+}
+
+#todo-list li input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
